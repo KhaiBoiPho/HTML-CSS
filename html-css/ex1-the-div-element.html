@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 2px;
+      }
+
+      .name {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: Arial;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 10px;
+      }
+
+      .mutual-friends {
+        font-size: 18px;
+        margin-top: 2px;
+        font-family: Arial;
+        margin-left: 10px;
+      }
+
+      .add-friend {
+        background-color: blue;
+        color: aliceblue;
+        border-radius: 5px;
+        width: 100px;
+        height: 30px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+      }
+
+      .add-friend:hover {
+        background-color: aqua;
+      }
+
+      .members {
+        display: inline-block;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        vertical-align: top;
+        margin-right: 15px;
+      }
+
+      .members:hover {
+        border-style: solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="members">
+      <img class="img" src="image/exp1.webp" alt="" />
+      <p class="name">Oliver</p>
+      <p class="mutual-friends">2 mutual friends</p>
+      <button class="add-friend">Add Friend</button>
+    </div>
+
+    <div class="members">
+      <img class="img" src="image/exp2.webp" alt="" />
+      <p class="name">Mimi</p>
+      <p class="mutual-friends">3 mutual friends</p>
+      <button class="add-friend">Add Friend</button>
+    </div>
+
+    <div class="members">
+      <img class="img" src="image/exp3.webp" alt="" />
+      <p class="name">Rex</p>
+      <p class="mutual-friends">4 mutual friends</p>
+      <button class="add-friend">Add Friend</button>
+    </div>
+  </body>
+</html>
